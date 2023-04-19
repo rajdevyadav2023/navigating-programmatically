@@ -7,3 +7,23 @@
 body{
   background-color: #f1f1ff;
 }
+/* -------------------------------------------- */
+.header{
+  padding: 1rem;
+  background-color: #c22943;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header a{
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+a.active{
+  background-color: #fff;
+  color: #c22943;
+  padding: .5rem;
+  border-radius: 5px;
+}
